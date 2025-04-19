@@ -2,9 +2,6 @@ import React, { useState } from 'react'
 
 const MobileNav = () => {
     const [showNav, setShowNav] = useState(false);
-    // document.getElementsByClassName('app').addEventListener('click', () => setShowNav(false))
-
-    // showNav ===true ? null : document.body.addEventListener('click', () => setShowNav(false)) ;
 
     return (
         <div className='mobile_nav'>
